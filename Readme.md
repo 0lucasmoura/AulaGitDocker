@@ -19,12 +19,16 @@ O modelo foi treinado com as seguintes variaveis
 
 ```json
 {
-	Sex: int,	# Sexo 0 é masculino sexo 1 é feminino
-	Age: float,	# Idade em forma fracionaria
-	Lifeboat: int,	# Numero do salva barco vidas que a pessoa pegou
-	Pclass: int	# Classe no navio representado por um inteiro, onde 1 é primeira classe e 3 é classe economica
+	Sex: int,	
+	Age: float,	
+	Lifeboat: int,	
+	Pclass: int	
 }
-
+```
+* Sexo 0 é masculino sexo 1 é feminino
+* Idade em forma fracionaria
+* Numero do salva barco vidas que a pessoa pegou
+* Classe no navio representado por um inteiro, onde 1 é primeira classe e 3 é classe economica
 
 #### Resposta
 
