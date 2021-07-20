@@ -19,10 +19,10 @@ O modelo foi treinado com as seguintes variaveis
 
 ```json
 {
-	Sex: int,	
-	Age: float,	
-	Lifeboat: int,	
-	Pclass: int	
+	"Sex": "int",
+	"Age": "float",	
+	"Lifeboat": "int",	
+	"Pclass": "int"	
 }
 ```
 * Sexo 0 é masculino sexo 1 é feminino
