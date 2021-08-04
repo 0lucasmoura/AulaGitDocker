@@ -25,6 +25,7 @@ O modelo foi treinado com as seguintes variaveis
 	"Pclass": "int"	
 }
 ```
+
 * Sexo 0 é masculino sexo 1 é feminino
 * Idade em forma fracionaria
 * Numero do salva barco vidas que a pessoa pegou
@@ -32,4 +33,15 @@ O modelo foi treinado com as seguintes variaveis
 
 #### Resposta
 
-A respsota da API deve ser a seguinte
+A respsota da API deve ser a seguinte:
+
+```json
+{
+	"survived": "bool",
+	"status": "int",	
+	"message": "string",	
+}
+```
+* Survived é um booleano (true | false) para dizer se a pessoa sobreviveu ou não
+* Status code da resposta HTTP
+* Campo para mensagem extra para o usuário
